@@ -22,7 +22,10 @@ exit
 # 
 ```
 
-## Post-ex notes
-These have a python interpreter, and actually a very fully featured Linux environment available. Amazing potential for post-exploitation.
+## Post-exploitation notes
+These have a python interpreter, and actually a very fully featured Linux environment available. Amazing potential for post-exploitation. 
+
+## Blue team notes
+I'm sure someone who cares can fill this in.
 
 Ref: https://www.atredis.com/blog/2021/8/18/sophos-utm-cve-2020-25223
