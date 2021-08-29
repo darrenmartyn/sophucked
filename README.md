@@ -29,6 +29,8 @@ Not implemented in this, just use the [nuclei template](https://github.com/proje
 These have a python interpreter, and actually a very fully featured Linux environment available. Amazing potential for post-exploitation. 
 
 ## Blue team notes
-I'm sure someone who cares can fill this in.
+I'm sure someone who cares can fill this in. Bitter (a subset of "blue team twitter") will probably do so shortly. 
 
 Third party reference (bug details): https://www.atredis.com/blog/2021/8/18/sophos-utm-cve-2020-25223
+
+Direct complaints to Sophos, who somehow thought passing user input to `open()` in Perl was a good idea in the 21st century. 
