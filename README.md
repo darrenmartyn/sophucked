@@ -31,6 +31,8 @@ These have a python interpreter, and actually a very fully featured Linux enviro
 ## Blue team notes
 I'm sure someone who cares can fill this in. Bitter (a subset of "blue team twitter") will probably do so shortly. 
 
+## References, etc.
+
 Third party reference (bug details): https://www.atredis.com/blog/2021/8/18/sophos-utm-cve-2020-25223
 
 Direct complaints to Sophos, who somehow thought passing user input to `open()` in Perl was a good idea in the 21st century. 
