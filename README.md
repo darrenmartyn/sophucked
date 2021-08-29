@@ -1,5 +1,5 @@
 # sophucked
-CVE-2020-25223 RCE PoC, gets reverse shell. Pre-auth.
+CVE-2020-25223 RCE PoC, gets reverse shell. Pre-auth. Implemented this quickly as it was needed.
 
 
 ## Example Use:
@@ -22,10 +22,13 @@ exit
 # 
 ```
 
+## Scanning/Detection
+Not implemented in this, just use the [nuclei template](https://github.com/projectdiscovery/nuclei-templates/blob/master/cves/2020/CVE-2020-25223.yaml).
+
 ## Post-exploitation notes
 These have a python interpreter, and actually a very fully featured Linux environment available. Amazing potential for post-exploitation. 
 
 ## Blue team notes
 I'm sure someone who cares can fill this in.
 
-Ref: https://www.atredis.com/blog/2021/8/18/sophos-utm-cve-2020-25223
+Third party reference (bug details): https://www.atredis.com/blog/2021/8/18/sophos-utm-cve-2020-25223
