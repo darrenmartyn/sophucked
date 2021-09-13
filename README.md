@@ -31,6 +31,9 @@ These have a python interpreter, and actually a very fully featured Linux enviro
 ## Blue team notes
 I'm sure someone who cares can fill this in. Bitter (a subset of "blue team twitter") will probably do so shortly. I mean, it can't be that hard to detect an unencrypted reverse shell beaconing out from your Unified Threat Manager box right?
 
+## Fixing the bug  
+Someone (presumably from Sophos) sent this over, its the official fix link. Go update your UTM. https://www.sophos.com/en-us/security-advisories/sophos-sa-20200918-sg-webadmin-rce
+
 ## References, etc.
 
 Third party reference (bug details): https://www.atredis.com/blog/2021/8/18/sophos-utm-cve-2020-25223
